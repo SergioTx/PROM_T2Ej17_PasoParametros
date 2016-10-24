@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_actividad1b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sergio.t1_17ej_pasoparametros.Actividad1b"
+    android:orientation="vertical">
+
+    <!-- el texto está definido en el java -->
+    <TextView
+        android:id="@+id/pregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/act1_aceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aceptar"/>
+
+    <Button
+        android:id="@+id/act1_rechazar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rechazar"/>
+</LinearLayout>

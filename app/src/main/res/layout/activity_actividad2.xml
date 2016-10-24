@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_actividad2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sergio.t1_17ej_pasoparametros.Actividad2">
+
+    <TextView
+        android:id="@+id/txt_conectar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/conectar"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_marginBottom="25dp"/>
+    <EditText
+        android:id="@+id/user"
+        android:layout_below="@id/txt_conectar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuario"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_below="@id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pass"/>
+
+    <Button
+        android:id="@+id/iniciarSesion"
+        android:layout_below="@id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inicia_sesion"/>
+
+    <TextView
+        android:id="@+id/txt_olvidastePass"
+        android:layout_below="@id/iniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/olvidaste_pass"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/txt_act2error"
+        android:layout_below="@id/txt_olvidastePass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_red_light"/>
+</RelativeLayout>

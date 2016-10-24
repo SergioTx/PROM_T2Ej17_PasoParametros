@@ -1,0 +1,42 @@
+<resources>
+    <!-- TITULOS -->
+    <string name="app_name">T1-17ej_PasoParametros</string>
+    <string name="titulo_main">Comunicacion</string>
+    <string name="titulo_act1a">Nombre y Apellidos</string>
+    <string name="titulo_act1b">Aceptar Condiciones</string>
+    <string name="titulo_act2">Comunicacion</string>
+    <string name="titulo_act3">Comunicacion</string>
+    <string name="titulo_act4">Comunicacion</string>
+
+    <!-- Botones main -->
+    <string name="actividad1">ACTIVIDAD 01</string>
+    <string name="actividad2">ACTIVIDAD 02</string>
+    <string name="actividad3">ACTIVIDAD 03</string>
+    <string name="actividad4">ACTIVIDAD 04</string>
+    <string name="salir">SALIR</string>
+
+    <!-- Actividad1 -->
+    <string name="nombre">Nombre:</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="verificar">VERIFICAR</string>
+    <string name="aceptas_condiciones">Aceptas condiciones:</string>
+    <string name="volver">VOLVER</string>
+    <string name="pregunta_aceptar" formatted="false">Hola %s. ¿Aceptas las condiciones?</string>
+    <string name="aceptar">ACEPTAR</string>
+    <string name="rechazar">RECHAZAR</string>
+
+    <!-- Actividad2 -->
+    <string name="conectar">Conectar</string>
+    <string name="usuario">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="inicia_sesion">INICIAR SESIÓN</string>
+    <string name="olvidaste_pass">¿Olvidaste tu contraseña?</string>
+    <string name="user_pass_vacios">El usuario y/o la contraseña no pueden estar vacíos</string>
+    <string name="correcto">El USUARIO y la PASSWORD son CORRECTAS</string>
+    <string name="incorrecto">USUARIO Y/O PASSWORD INCORRECTA</string>
+
+    <!-- Actividad3 -->
+    <string name="suma">SUMA</string>
+    <string name="comprobar_resultado">COMPROBAR RESULTADO</string>
+    <string name="correctas_incorrectas" formatted="false">PREGUNTAS CORRECTAS:%d INCORRECTAS:%d</string>
+</resources>

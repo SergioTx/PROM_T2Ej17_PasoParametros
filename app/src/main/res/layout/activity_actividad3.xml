@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_actividad3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sergio.t1_17ej_pasoparametros.Actividad3">
+
+    <TextView
+        android:id="@+id/tituloSuma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/suma"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:id="@+id/operacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tituloSuma"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/act3_num1"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:enabled="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+        <EditText
+            android:id="@+id/act3_num2"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:enabled="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="=" />
+
+        <EditText
+            android:id="@+id/act3_res"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/act3_comprobar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/operacion"
+        android:layout_centerHorizontal="true"
+        android:text="@string/comprobar_resultado" />
+
+    <TextView
+        android:id="@+id/correctasIncorrectas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/act3_comprobar" />
+</RelativeLayout>
